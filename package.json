@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server",
-    "json": "npx json-server --watch database.json --port 3000"
+    "json": "npx json-server --watch database.json --port 3000",
+    "ts": "npx tsc"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,8 @@
   "devDependencies": {
     "json-server": "^0.17.0",
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "typescript": "^4.8.3"
   }
 }
